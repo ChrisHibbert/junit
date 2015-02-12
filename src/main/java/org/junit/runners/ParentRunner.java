@@ -310,7 +310,7 @@ public abstract class ParentRunner<T> extends Runner implements Filterable,
     /**
      * Returns a {@link TestClass} object wrapping the class to be executed.
      */
-    public final TestClass getTestClass() {
+    public TestClass getTestClass() {
         return testClass;
     }
 
